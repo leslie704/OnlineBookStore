@@ -294,7 +294,7 @@ public class BookController {
                 bookList = bookService.getRecommendsByPage(1, 14);
                 break;
             case "newProduct":
-                bookList = bookService.getNewProductsByPage(1, 14);
+                bookList = bookService.getNewProductsByPage(1, 14);//
                 break;
             case "newPut":
                 bookList = bookService.getNewPutBookList(1, 10);
